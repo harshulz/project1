@@ -1,0 +1,106 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black ;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+h1{
+    color: lightgray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    
+}
+#outer{
+     border: solid;
+     border-width: 10px;
+    border-color: white;
+    border-radius: 20px 0px 20px 0px;
+    background: grey;
+    
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    height: 50%;
+    
+}
+
+/* #head{
+    height: 50%;
+    width: 50%;
+} */
+
+#head h1{
+    
+color: white;
+padding: 20px;
+}
+
+
+#button{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    align-items: stretch;
+
+
+}
+
+#button button{
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px 0px 20px 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large    ;
+    font-variant-caps: all-petite-caps;
+
+    
+}
+
+#button button:hover{
+
+    background-color: none;
+    transition-delay: 10ms;
+    width: 120px;
+}
+
+
+
+
+#start{
+    background-color: greenyellow;
+    color: green;
+}
+
+#start:hover{
+    background-color: green;
+    color:white
+    
+}
+
+
+#stop{
+    background-color: orange;
+}
+#stop:hover{
+    background-color: orangered;
+    
+}
+
+#reset{
+    background-color: red;
+}
+#reset:hover{
+    background-color: rosybrown;
+    
+}
+
+
+
